@@ -1,2 +1,101 @@
+<link rel="stylesheet" href="https://slavonic.github.io/css/fonts.css" type="text/css">
+<style>
+.ksl {
+	font-family: 'Monomakh Unicode';
+}
+table, tr, td {
+	border:0;
+}
+table {
+	width:100%;
+}
+</style>
+<div style="font-family:sans-serif;">
 <h1>Bookmarklets for Slavonic Studies</h1>
-<p>More coming soon</p>
+<div style="float:right;margin:5px;border:2px solid black;max-width:33%;">
+<h2 style="text-align:center;margin:3px;">Similar projects</h2>
+<ul style="margin:5px;">
+	<li><a href="https://pod-o-mart.github.io/dictionaryBookmarklets/">Dictionary Bookmarklets</a></li>
+	<li><a href="https://pod-o-mart.github.io/keyboardBookmarklets/">Bookmarklets for a multilingual virtual online keyboard</a></li>
+	<li><a href="https://pod-o-mart.github.io/yiddishBookmarklets/">Bookmarklet for Yiddish dictionaries, keyboard input and transliteration</a></li>
+</ul>
+</div>
+<p style="text-align: justify;">To use the bookmarklets, you'll have to drag the button into your bookmarks toolbar. A <i>right-click</i> → <i>"save as bookmark"</i> would also make it. Important is that it will be saved as a bookmark.</p>
+<p style="text-align: justify;">The bookmarklets work virtually with any browser on almost any web site <u>except on Facebook</u>.</p>
+<p style="text-align: justify;">Read more about <a href="http://bookmarklets.org/what-is-a-bookmarklet/" target="_blank" rel="noopener noreferrer">what bookmarklets are</a>.</p>
+<h2>Dictionary Bookmarklets</h2>
+<p style="text-align: justify;"><a href="https://pod-o-mart.github.io/dictionaryBookmarklets/">Project page</a> / <a href="https://github.com/pod-o-mart/dictionaryBookmarklets">Github</a></p>
+<p style="text-align: justify;">By clicking the bookmarklet from your bookmarks toolbar, a dictionary menu will appear on your browser screen. Any word you enter in this menu (or any word you have selected from a web site before) can be looked up in one or more online dictionaries which are listed below the input field. You can also look up a specific word on a web site by selecting it with the cursor and then running the bookmarklet bookmarklet afterwards by clicking on it.</p>
+<p style="text-align: justify;">It's easiest to understand the concept of the bookmarklet by simply clicking this <a href="javascript:var%20t=window.getSelection?window.getSelection():document.getSelection?document.getSelection():(document.selection&&document.selection.createRange)?document.selection.createRange().text:'';if(t!='');(function(d){var%20s=d.createElement('script');s.type='text/javascript';s.charset='utf-8';s.async=true;s.src='https://pod-o-mart.github.io/dictionaryBookmarklets/ocs.js';d.body.appendChild(s);}(document));">DEMO</a>.</p>
+<table>
+	<tbody>
+		<tr style="height:30px;">
+			<td style="width:20%;"><a href="javascript:var%20t=window.getSelection?window.getSelection():document.getSelection?document.getSelection():(document.selection&&document.selection.createRange)?document.selection.createRange().text:'';if(t!='');(function(d){var%20s=d.createElement('script');s.type='text/javascript';s.charset='utf-8';s.async=true;s.src='https://pod-o-mart.github.io/dictionaryBookmarklets/ocs.js';d.body.appendChild(s);}(document));" onclick="alert('Drag the browser button link into the bookmarks toolbar or save the link as a bookmark.');return false;" style="border: 1px solid #afafaf; padding: 5px; margin: 5px; background-color: #eeeeee;">OCS dicts</a></td>
+			<td><strong>Old Church Slavonic</strong> dictionaries, corpora, Cyrillic input and transliteration. This bookmarklet supports research in Slavonic historical linguistics with focus on Old Church Slavonic and Old Russian. It offers a selection of lexical and grammatical dictionaries, corpora, a transliteration function and a virtual keyboard for historical Cyrillic characters.</td>
+			<td><a href="javascript:var%20t=window.getSelection?window.getSelection():document.getSelection?document.getSelection():(document.selection&&document.selection.createRange)?document.selection.createRange().text:'';if(t!='');(function(d){var%20s=d.createElement('script');s.type='text/javascript';s.charset='utf-8';s.async=true;s.src='https://pod-o-mart.github.io/dictionaryBookmarklets/ocs.js';d.body.appendChild(s);}(document));">DEMO</a></td>
+		</tr>
+		<tr style="height:30px;">
+			<td style="width:20%;"><a href="javascript:var%20t=window.getSelection?window.getSelection():document.getSelection?document.getSelection():(document.selection&&document.selection.createRange)?document.selection.createRange().text:'';if(t!='');(function(d){var%20s=d.createElement('script');s.type='text/javascript';s.charset='utf-8';s.async=true;s.src='https://pod-o-mart.github.io/dictionaryBookmarklets/russian.js';d.body.appendChild(s);}(document));" onclick="alert('Drag the browser button link into the bookmarks toolbar.');return false;" style="border: 1px solid #afafaf; padding: 5px; margin: 5px; background-color: #eeeeee;">RU dicts</a></td>
+			<td><strong>Russian</strong> mono- / bilingual dictionaries, corpora and transliteration</td>
+			<td><a href="javascript:var%20t=window.getSelection?window.getSelection():document.getSelection?document.getSelection():(document.selection&&document.selection.createRange)?document.selection.createRange().text:'';if(t!='');(function(d){var%20s=d.createElement('script');s.type='text/javascript';s.charset='utf-8';s.async=true;s.src='https://pod-o-mart.github.io/dictionaryBookmarklets/russian.js';d.body.appendChild(s);}(document));">DEMO</a></td>
+		</tr>
+		<tr style="height:30px;">
+			<td style="width:20%;"><a href="javascript:var%20t=window.getSelection?window.getSelection():document.getSelection?document.getSelection():(document.selection&&document.selection.createRange)?document.selection.createRange().text:'';if(t!='');(function(d){var%20s=d.createElement('script');s.type='text/javascript';s.charset='utf-8';s.async=true;s.src='https://pod-o-mart.github.io/dictionaryBookmarklets/bulgarian.js';d.body.appendChild(s);}(document));" onclick="alert('Drag the browser button link into the bookmarks toolbar.');return false;" style="border: 1px solid #afafaf; padding: 5px; margin: 5px; background-color: #eeeeee;">BG/MK dicts</a></td>
+			<td><strong>Bulgarian</strong> and <strong>Macedonian</strong> mono- and bilingual dictionaries</td>
+			<td><a href="javascript:var%20t=window.getSelection?window.getSelection():document.getSelection?document.getSelection():(document.selection&&document.selection.createRange)?document.selection.createRange().text:'';if(t!='');(function(d){var%20s=d.createElement('script');s.type='text/javascript';s.charset='utf-8';s.async=true;s.src='https://pod-o-mart.github.io/dictionaryBookmarklets/bulgarian.js';d.body.appendChild(s);}(document));">DEMO</a></td>
+		</tr>
+	</tbody>
+</table>
+<br />
+<h2>Virtual Keyboard Interfaces</h2>
+<p style="text-align: justify;"><a href="https://pod-o-mart.github.io/keyboardBookmarklets/">Project page</a> / <a href="https://github.com/pod-o-mart/keyboardBookmarklets">Github</a></p>
+<p>The bookmarklets display a virtual keyboard interface in almost any web site. Works on input and textarea fields.</p>
+
+<table>
+	<tbody>
+		<tr style="height:30px;">
+			<td style="width:20%;">
+				<div style="white-space: nowrap;">
+					<a href="javascript:(function(d){var%20scriptlang=document.createElement('script');scriptlang.type='text/javascript';scriptlang.text='var%20kblang=\'Русский\'';document.getElementsByTagName('head')[0].appendChild(scriptlang);var%20s=d.createElement('script');s.type='text/javascript';s.charset='utf-8';s.async=true;s.src='https://pod-o-mart.github.io/keyboardBookmarklets/kb-slav.js';d.body.appendChild(s);var%20head=document.head;var%20link=document.createElement('link');link.type='text/css';link.rel='stylesheet';link.href='https://pod-o-mart.github.io/keyboardBookmarklets/keyboard.css';head.appendChild(link);var%20y=document.getElementsByTagName('TEXTAREA');var%20j;for(j=0;j<y.length;j++){y[j].classList.add('keyboardInput');}var%20x=document.querySelectorAll('INPUT');var%20i;for(i=0;i<x.length;i++){x[i].classList.add('keyboardInput');}var%20w=document.getElementsByTagName('INPUT');var%20l;for(l=0;l<w.length;l++){if(w[l].getAttribute('type')==='email'){w[l].setAttribute('type','text');}if(w[l].getAttribute('type')==='search'){w[l].setAttribute('type','text');}}}(document));" onclick="alert('Drag the link into your browser\'s bookmarks toolbar or save it as a bookmark.');return false;" style="border: 1px solid #afafaf; padding: 5px; margin: 5px; background-color: #eeeeee;">Keyboard<img src="https://pod-o-mart.github.io/keyboardBookmarklets/keyboard.png" border="0" style="margin-left: 5px;" /></a>
+				</div>
+			</td>
+			<td>
+				for <strong>Slavic studies</strong>, comprising <strong>Old Church Slavonic</strong> ("Словѣньскъ" > <span style="vertical-align: middle;padding: 0px 0.45em;white-space: pre;height: 1.8em;font-family: 'Lucida Console','Arial Unicode MS',monospace;border-top: 1px solid #e5e5e5;border-right: 1px solid #5d5d5d;border-bottom: 1px solid #5d5d5d;border-left: 1px solid #e5e5e5;background-color: #eeeeee;cursor: default;min-width: 0.75em;-webkit-border-radius: 0.2em;-moz-border-radius: 0.2em;border-radius: 0.2em;">AltGr</span>) and <strong>Glagolitic</strong> ("Ⰳⰾⰰⰳⱁⰾⰹⱌⰰ")
+			</td>
+			<td>
+				<a href="javascript:(function(d){var%20scriptlang=document.createElement('script');scriptlang.type='text/javascript';scriptlang.text='var%20kblang=\'Русский\'';document.getElementsByTagName('head')[0].appendChild(scriptlang);var%20s=d.createElement('script');s.type='text/javascript';s.charset='utf-8';s.async=true;s.src='https://pod-o-mart.github.io/keyboardBookmarklets/kb-slav.js';d.body.appendChild(s);var%20head=document.head;var%20link=document.createElement('link');link.type='text/css';link.rel='stylesheet';link.href='https://pod-o-mart.github.io/keyboardBookmarklets/keyboard.css';head.appendChild(link);var%20y=document.getElementsByTagName('TEXTAREA');var%20j;for(j=0;j<y.length;j++){y[j].classList.add('keyboardInput');}var%20x=document.querySelectorAll('INPUT');var%20i;for(i=0;i<x.length;i++){x[i].classList.add('keyboardInput');}var%20w=document.getElementsByTagName('INPUT');var%20l;for(l=0;l<w.length;l++){if(w[l].getAttribute('type')==='email'){w[l].setAttribute('type','text');}if(w[l].getAttribute('type')==='search'){w[l].setAttribute('type','text');}}}(document));">DEMO</a>
+			</td>
+		</tr>
+		<tr style="height:30px;">
+			<td style="width:20%;">
+				<div style="white-space: nowrap;">
+					<a href="javascript:(function(d){var%20scriptlang=document.createElement('script');scriptlang.type='text/javascript';scriptlang.text='var%20kblang=\'Русский\'';document.getElementsByTagName('head')[0].appendChild(scriptlang);var%20s=d.createElement('script');s.type='text/javascript';s.charset='utf-8';s.async=true;s.src='https://pod-o-mart.github.io/keyboardBookmarklets/keyboard-ees.js';d.body.appendChild(s);var%20head=document.head;var%20link=document.createElement('link');link.type='text/css';link.rel='stylesheet';link.href='https://pod-o-mart.github.io/keyboardBookmarklets/keyboard.css';head.appendChild(link);var%20y=document.getElementsByTagName('TEXTAREA');var%20j;for(j=0;j<y.length;j++){y[j].classList.add('keyboardInput');}var%20x=document.querySelectorAll('INPUT');var%20i;for(i=0;i<x.length;i++){x[i].classList.add('keyboardInput');}var%20w=document.getElementsByTagName('INPUT');var%20l;for(l=0;l<w.length;l++){if(w[l].getAttribute('type')==='email'){w[l].setAttribute('type','text');}if(w[l].getAttribute('type')==='search'){w[l].setAttribute('type','text');}}}(document));" onclick="alert('Drag the link into your browser\'s bookmarks toolbar or save it as a bookmark.');return false;" style="border: 1px solid #afafaf; padding: 5px; margin: 5px; background-color: #eeeeee;">Keyboard<img src="https://pod-o-mart.github.io/keyboardBookmarklets/keyboard.png" border="0" style="margin-left: 5px;" /></a>
+				</div>
+			</td>
+			<td>
+				 for <strong>East European studies</strong> (all keyboards from <em>Slavic studies</em> plus keyboards from Eastern Europe and CIS)
+			</td>
+			<td>
+				<a href="javascript:(function(d){var%20scriptlang=document.createElement('script');scriptlang.type='text/javascript';scriptlang.text='var%20kblang=\'Русский\'';document.getElementsByTagName('head')[0].appendChild(scriptlang);var%20s=d.createElement('script');s.type='text/javascript';s.charset='utf-8';s.async=true;s.src='https://pod-o-mart.github.io/keyboardBookmarklets/keyboard-ees.js';d.body.appendChild(s);var%20head=document.head;var%20link=document.createElement('link');link.type='text/css';link.rel='stylesheet';link.href='https://pod-o-mart.github.io/keyboardBookmarklets/keyboard.css';head.appendChild(link);var%20y=document.getElementsByTagName('TEXTAREA');var%20j;for(j=0;j<y.length;j++){y[j].classList.add('keyboardInput');}var%20x=document.querySelectorAll('INPUT');var%20i;for(i=0;i<x.length;i++){x[i].classList.add('keyboardInput');}var%20w=document.getElementsByTagName('INPUT');var%20l;for(l=0;l<w.length;l++){if(w[l].getAttribute('type')==='email'){w[l].setAttribute('type','text');}if(w[l].getAttribute('type')==='search'){w[l].setAttribute('type','text');}}}(document));">DEMO</a>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+
+<input type="text" placeholder="Click 'DEMO'">
+<h3>Keyboard Preferences</h3>
+<p>You can change the keyboard's default language by adjusting <code> kblang=\'English\'';</code> in the the bookmark, e.g. <code> kblang=\'Русский\'';</code></p>
+<br />
+<h2>Standalone font operations</h2>
+<p style="text-align: justify;">The OCS font converting functions for websites are available as standalones:</p>
+<p style="text-align: justify;"><a href="javascript:function%20addCSS%28e%29%7Bvar%20o%3Ddocument.getElementsByTagName%28%22head%22%29%5B0%5D%2Ct%3Ddocument.createElement%28%22link%22%29%3Bt.href%3De%2Ct.rel%3D%22stylesheet%22%2Co.append%28t%29%7DaddCSS%28%22https%3A%2F%2Fsci.ponomar.net%2Fcss%2Ffonts.css%22%29%3Bvar%20a%3Ddocument.getElementsByTagName%28%22%2A%22%29%3Bfor%28i%3D0%3Bi%3Ca.length%3Bi%2B%2B%29a%5Bi%5D.style.setProperty%28%22font-family%22%2C%27%22Monomakh%20Unicode%22%2C%22Ponomar%20Unicode%22%2C%22Pochaevsk%20Unicode%22%2C%22Triodion%20Unicode%22%2C%22Acathist%22%2C%22Fedorovsk%20Unicode%22%2CKurKlim%2CBukyvede%2C%22Kliment%20Std%22%2CDilyana%2C%22Menaion%20Unicode%22%2CLazov%27%29%3B" onclick="alert('Drag the browser button link into the bookmarks toolbar or save the link as a bookmark.');return false;" style="border: 1px solid #afafaf; padding: 5px; margin: 5px; background-color: #eeeeee;">OCS font</a>&nbsp;<strong>Converts the current website on click for display with an Old Church Slavonic font</strong></p>
+<p style="text-align: justify;"> <a href="javascript:function%20addCSS%28e%29%7Bvar%20o%3Ddocument.getElementsByTagName%28%22head%22%29%5B0%5D%2Ct%3Ddocument.createElement%28%22link%22%29%3Bt.href%3De%2Ct.rel%3D%22stylesheet%22%2Co.append%28t%29%7DaddCSS%28%22https%3A%2F%2Fsci.ponomar.net%2Fcss%2Ffonts.css%22%29%3Bvar%20a%3Ddocument.getElementsByTagName%28%22%2A%22%29%3Bfor%28i%3D0%3Bi%3Ca.length%3Bi%2B%2B%29a%5Bi%5D.style.setProperty%28%22font-family%22%2C%27%22Monomakh%20Unicode%22%2C%22Ponomar%20Unicode%22%2C%22Pochaevsk%20Unicode%22%2C%22Triodion%20Unicode%22%2C%22Acathist%22%2C%22Fedorovsk%20Unicode%22%2CKurKlim%2CBukyvede%2C%22Kliment%20Std%22%2CDilyana%2C%22Menaion%20Unicode%22%2CLazov%27%29%3B">DEMO</a>:</p>
+<p style="border: 1px solid #C4C1BD; background-color:#E5E3E1; margin 5px 0;padding: 5px 0 5px 5px;width: max-content;">Ѹ҆зрѣ́въ же наро́ды, взы́де на горꙋ̀: и҆ сѣ́дшꙋ є҆мꙋ̀, пристꙋпи́ша къ немꙋ̀ ѹ҆чн҃цы̀ є҆гѡ̀.</p>
+<p>The bookmarklet gets a webfont from <a target="_blank" href="https://sci.ponomar.net/fonts.html">Ponomar Slavonic Compu­ting</a> and applies it to the current website. The default font "Monomakh Unicode". Adjust  this by changing the order of the fonts within the bookmarklet's address. Available fonts are "Ponomar Unicode", "Pochaevsk Unicode", "Triodion Unicode", "Acathist", "Fedorovsk Unicode" and "Menaion Unicode". The common OCS fonts "KurKlim", "Bukyvede", "Kliment Std", "Dilyana" and "Lazov" are listed, too but have to be installed on the computer first.</p>
+<p style="text-align: justify;"><a href="javascript:function%20addCSS%28e%29%7Bvar%20t%3Ddocument.getElementsByTagName%28%22head%22%29%5B0%5D%2Ca%3Ddocument.createElement%28%22link%22%29%3Ba.href%3De%2Ca.rel%3D%22stylesheet%22%2Ct.append%28a%29%7DaddCSS%28%22https%3A%2F%2Fsci.ponomar.net%2Fcss%2Ffonts.css%22%29%3Bvar%20a%3Ddocument.getElementsByTagName%28%22%2A%22%29%3Bfor%28i%3D0%3Bi%3Ca.length%3Bi%2B%2B%29a%5Bi%5D.style.setProperty%28%22font-family%22%2C%27%22FiraSlav%22%27%2C%22important%22%29%3B" onclick="alert('Drag the browser button link into the bookmarks toolbar or save the link as a bookmark.');return false;" style="border: 1px solid #afafaf; padding: 5px; margin: 5px; background-color: #eeeeee;">OCS font dev</a>&nbsp;<strong>Converts the current website on click for display with "FiraSlav"</strong>, a monospaced OCS font for developers. All diacritical marks and combining letters are presented as spacing symbols and a monospaced appearance is maintained.</p>
+<p style="text-align: justify;"><a href="javascript:function%20addCSS%28e%29%7Bvar%20t%3Ddocument.getElementsByTagName%28%22head%22%29%5B0%5D%2Ca%3Ddocument.createElement%28%22link%22%29%3Ba.href%3De%2Ca.rel%3D%22stylesheet%22%2Ct.append%28a%29%7DaddCSS%28%22https%3A%2F%2Fsci.ponomar.net%2Fcss%2Ffonts.css%22%29%3Bvar%20a%3Ddocument.getElementsByTagName%28%22%2A%22%29%3Bfor%28i%3D0%3Bi%3Ca.length%3Bi%2B%2B%29a%5Bi%5D.style.setProperty%28%22font-family%22%2C%27%22FiraSlav%22%27%2C%22important%22%29%3B">DEMO</a>:</p>
+<p class="ksl" style="border: 1px solid #C4C1BD; background-color:#E5E3E1; margin 5px 0;padding: 5px 0 5px 5px;width: max-content;">Ѹ҆зрѣ́въ же наро́ды, взы́де на горꙋ̀: и҆ сѣ́дшꙋ є҆мꙋ̀, пристꙋпи́ша къ немꙋ̀ ѹ҆чн҃цы̀ є҆гѡ̀.</p>
+<p style="text-align:right;">Author: <a href="https://podolak.net" target="_blank">Martin Podolak</a></p>
+<br />
+</div>
